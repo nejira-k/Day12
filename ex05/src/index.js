@@ -20,4 +20,4 @@ function myPetsFunction(pets) {
 // Only change code above this line
 console.log(myPetsFunction(myPetsArray));
 module.exports = myPetsFunction;
-module.exports = myPetsArray;
+module.exports.myPets = myPetsArray;
